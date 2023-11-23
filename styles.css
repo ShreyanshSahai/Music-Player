@@ -16,7 +16,7 @@ body {
 #main-container {
 	height: 100vh;
 	width: 100vw;
-    display: flex;
+	display: flex;
 }
 /* navbar */
 #navbar {
@@ -67,24 +67,23 @@ body {
 	border-radius: 15px;
 }
 #navbar .search:hover {
-    box-shadow: 0 2px 4px rgb(103, 88, 199), 0 -2px 4px rgb(103, 88, 199);
+	box-shadow: 0 2px 4px rgb(103, 88, 199), 0 -2px 4px rgb(103, 88, 199);
 }
 /* top section */
-main{
-    margin: 2% 5% 1% 8%;
+main {
+	margin: 2% 5% 1% 8%;
 }
 #top-section > div {
-    display: inline-block;
+	display: inline-block;
 }
 #top-section {
-    display: flex;
-    border: 1px solid white;
-    width: 65vw;
+	display: flex;
+	border: 1px solid white;
+	width: 65vw;
 }
 #big-img {
-    background-image: url('/images/CoverImg.jpg');
-    height: 20rem;
-    background-size: contain;
-    width: 25rem;
-
+	background-image: url("/images/CoverImg.jpg");
+	height: 20rem;
+	background-size: contain;
+	width: 25rem;
 }
